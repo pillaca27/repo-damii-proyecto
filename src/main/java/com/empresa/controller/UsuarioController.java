@@ -26,6 +26,7 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioServiceImpl usuarioService;
 	
+	
 	@GetMapping
 	@ResponseBody
 	public ResponseEntity<List<Usuario>> listar(){
